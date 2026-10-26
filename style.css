@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3eeea;
+  color: #262628;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+section {
+  height: 65vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero, .anatomy, .alphabet {
+  background: #262628;
+  color: #f3eeea;
+}
+
+.hero-circle {
+  width: 61.5625%;
+  height: 94.7115%;
+  border-radius: 50%;
+  background: #d96072;
+  position: absolute;
+  top: 2.6442%;
+  right: -12.1875%;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 24.6394%;
+  left: 5.0000%;
+  margin: 0;
+  font-size: 13.7500vw;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.3906vw;
+  white-space: nowrap;
+}
+
+.hero-note {
+  position: absolute;
+  top: 50.2404%;
+  left: 5.0000%;
+  margin: 0;
+  font-size: 1.5625vw;
+  line-height: 1.35;
+}
+
+.hero-ribbon {
+  position: absolute;
+  top: 41.2260%;
+  left: 47.8125%;
+  width: 44.5312%;
+  height: 29.0865%;
+}
+
+.origin, .specimens {
+  background: #f3eeea;
+}
+
+.origin h2, .anatomy h2, .weights h2 {
+  position: absolute;
+  margin: 0;
+  font-size: 4.3750vw;
+  line-height: 1.05;
+  font-weight: 800;
+}
+
+.origin h2 {
+  top: 9.3750%;
+  left: 6.2500%;
+}
+
+.task {
+  position: absolute;
+  top: 22.8365%;
+  left: 6.2500%;
+  font-size: 1.5625vw;
+  line-height: 1.35;
+}
+
+.task strong {
+  font-size: 1.5625vw;
+}
+
+.task p, .anatomy-copy p {
+  margin: 0.3125vw 0 0;
+}
+
+.today {
+  position: absolute;
+  top: 21.2740%;
+  left: 65.9375%;
+  width: 29.3750%;
+  height: 28.0048%;
+}
+
+.year {
+  position: absolute;
+  height: 28.0048%;
+}
+
+.year-2010 {
+  left: 5.0781%;
+  top: 54.2067%;
+  width: 29.3750%;
+}
+
+.year-2011 {
+  left: 43.6719%;
+  top: 63.2212%;
+  width: 29.4531%;
+}
+
+.anatomy-copy {
+  position: absolute;
+  left: 6.2500%;
+  top: 39.6635%;
+}
+
+.anatomy h2 {
+  position: static;
+  margin-bottom: 1.7188vw;
+}
+
+.anatomy-copy p {
+  font-size: 1.5625vw;
+  line-height: 1.4;
+}
+
+.letter {
+  position: absolute;
+  right: 8.5938%;
+  top: -2.4038%;
+  color: #f3eeea;
+  font-size: 73.4375vw;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -5.4688vw;
+}
+
+.blue {
+  position: absolute;
+  top: 7.3317%;
+  left: 47.5000%;
+  width: 22.8125%;
+  height: 23.4375%;
+}
+
+.green {
+  position: absolute;
+}
+
+.anatomy-green {
+  top: 39.1827%;
+  left: 82.2656%;
+  width: 22.8906%;
+  height: 23.4375%;
+}
+
+.pink {
+  position: absolute;
+}
+
+.anatomy-pink {
+  left: 40.6250%;
+  top: 68.1490%;
+  width: 22.8906%;
+  height: 23.4375%;
+}
+
+.weights {
+  background: #d6dc82;
+}
+
+.weights h2 {
+  top: 9.6154%;
+  left: 6.2500%;
+}
+
+.weight-list {
+  position: absolute;
+  top: 6.9712%;
+  right: 12.5000%;
+  width: 28.5156%;
+}
+
+.weight-list div {
+  display: flex;
+  align-items: center;
+  height: 9.6875vw;
+  gap: 2.1875vw;
+}
+
+.weight-list small {
+  width: 2.5000vw;
+  text-align: right;
+  font-size: 1.2500vw;
+}
+
+.weight-list span {
+  font-size: 4.3750vw;
+}
+
+.light { font-weight: 300;
+}
+.regular { font-weight: 400;
+}
+.medium { font-weight: 500;
+}
+.semibold { font-weight: 600;
+}
+.bold { font-weight: 700;
+}
+.extrabold { color: #f3eeea;
+}
+
+.volume {
+  position: absolute;
+  left: 6.2500%;
+  bottom: 8.1731%;
+  margin: 0;
+  font-size: 4.3750vw;
+  font-weight: 300;
+}
+
+.volume b {
+  color: #f3eeea;
+  font-weight: 800;
+}
+
+.letters {
+  position: absolute;
+  left: 6.2500%;
+  top: 15.8654%;
+  font-size: 2.9688vw;
+  line-height: 1.4;
+}
+
+.letters p {
+  margin: 0 0 0.9375vw;
+}
+
+.latin-upper, .numbers b {
+  color: #d96072;
+  font-weight: 800;
+}
+
+.latin-lower, .cyrillic-lower {
+  color: #d6dc82;
+  font-weight: 300;
+}
+
+.cyrillic-upper, .numbers {
+  color: #c9c9ca;
+  font-weight: 700;
+}
+
+.ampersand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.specimen {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 2.1875vw;
+  white-space: nowrap;
+}
+
+.specimen span {
+  display: inline-block;
+  font-size: 8.7500vw;
+  line-height: 1.1;
+}
+
+.specimen small {
+  font-size: 1.2500vw;
+}
+
+.specimen img {
+  display: block;
+}
+
+.open {
+  top: 12.2596%;
+  left: 34.3750%;
+}
+
+.open span { font-weight: 800;
+}
+
+.clear {
+  top: 30.5288%;
+  left: 39.0625%;
+  color: #d96072;
+}
+
+.clear span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.human {
+  top: 51.4423%;
+  left: 32.5781%;
+}
+
+.human img {
+  width: 34.6875vw;
+  height: 10.1562vw;
+}
+
+.universal {
+  top: 72.3558%;
+  left: 29.9219%;
+}
+
+.universal img {
+  width: 39.6875vw;
+  height: 10.6250vw;
+}
